@@ -1,0 +1,96 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    display: flex;
+}
+
+h1{
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+}
+
+h2{
+    font-family: 'Young Serif', serif;
+    color: hsl(14, 45%, 36%);
+}
+
+p{
+    color: hsl(30, 10%, 34%)
+}
+
+li {
+    padding-left: 20px;
+    color: hsl(30, 10%, 34%)
+}
+
+.ingredients li{
+    line-height: 1.5;
+}
+
+.ingredients hr{
+    margin: 0;
+}
+
+
+.ingredients li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li{
+    line-height: 1.5;
+}
+
+.instructions hr{
+    margin: 0;
+}
+
+.preptime{
+    background-color: hsl(330, 100%, 98%);
+}
+
+.preptime h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+.nutrition{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    line-height: 2;
+    margin-left: 28px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin-left: -30px;
+}
+
+.weight{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
