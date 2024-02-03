@@ -9,7 +9,7 @@ body{
 .page{
     display: flex;
     flex-direction: column;
-    width: 650px;
+    max-width: 650px;
     background-color: white;
     padding: 30px;
     margin: 30px;
